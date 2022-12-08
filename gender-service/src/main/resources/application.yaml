@@ -1,1 +1,9 @@
+server:
+  port: 5001
 
+services:
+  gender-api:
+    scheme: https
+    host: gender-api.com
+    path: get
+    key: "gender-api-dummy-key"
